@@ -1,6 +1,7 @@
 {
   "plugins": [
     "./deploy/deploy.js",
+    "./awsCompileS3Events/awsCompileS3Events.js",
     "./awsDeploy/awsDeploy.js",
     "./create/create.js",
     "./remove/remove.js",
