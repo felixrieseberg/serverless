@@ -4,6 +4,9 @@
     "./deploy/deploy.js",
     "./invoke/invoke.js",
     "./remove/remove.js",
-    "TODO: ADD AZURE"
+    "./azure/compile/index.js",
+    "./azure/deploy/index.js",
+    "./azure/invoke/index.js",
+    "./azure/remove/index.js"
   ]
 }
