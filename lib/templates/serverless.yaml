@@ -45,7 +45,7 @@ resources:
         AWSTemplateFormatVersion: 2010-09-09
         Description: CloudFormation Resources
         Resources:
-    azure_functions:
+    azure:
         $ref: ../azure_resources.json # you can use JSON-REF to ref other JSON files
     google:
         $ref: ../google_resources.yaml # you can use JSON-REF to ref other YAML files
